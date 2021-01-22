@@ -1,0 +1,20 @@
+{
+    "name": "jacksonjeans/file",
+    "version": "1.0",
+    "type": "library",
+    "description": "A PHP - file class for create, copy, move, delete and process",
+    "keywords": ["file","php","fopen","create"],
+    "homepage": "https://smanixx.de",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julian Tietz",
+            "email": "julian.tietz97@gmail.de",
+            "homepage": "http://smanixx.de",
+            "role": "Developer"
+        }
+    ],
+    "require":{
+        "php":">=5.3.3"
+    }
+}
