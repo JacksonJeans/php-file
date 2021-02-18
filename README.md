@@ -2,9 +2,10 @@
 
 [TOC]
 
+
+
 PHP-File class was developed to simplify the handling of files.
 With PHP-File class you can read, decrypt, encrypt, move, write, copy and delete all kinds of files. Additionally, new files can be created that are temporarily accessible and can then be saved under a specific directory.
-
 
 
 ## Install
@@ -18,11 +19,7 @@ Requirement is at least PHP 5.3.3, openssl with the sodium package.
 Move the files to the appropriate directory
 
 ```php
-require_once('src/FileInterface.class.php');
-require_once('src/FileException.class.php');
-require_once('src/FileInfo.class.php');
-require_once('src/File.class.php');
-require_once('src/FileList.class.php');
+require_once('vendor/autoload.php');
 
 # namespace
 use JacksonJeans;
@@ -43,8 +40,8 @@ $File->move('test/');
 
 Or with Composer
 
-```
-composer require jacksonjeans/file
+```bash
+$ composer install
 ```
 
 ## Usage
